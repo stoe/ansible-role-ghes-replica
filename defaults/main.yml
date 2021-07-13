@@ -1,0 +1,14 @@
+---
+# GitHub Enterprise Server primary details
+github_host: 0.0.0.0
+github_hostname: "{{ github_host }}"
+github_admin_port: 8443
+
+replica_host: 0.0.0.0
+
+# possible values:
+#   - "high availability"
+#   - "geo"
+replica_role: "high availability"
+
+verify_replication: true
